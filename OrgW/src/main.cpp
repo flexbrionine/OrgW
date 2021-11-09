@@ -85,16 +85,8 @@ void setup()
   myRTC.setDS1302Time(15, 6, 21, 1, 14, 10, 2021);
   display.display();
   display.setFont(&FreeSansOblique12pt7b);
-  delay(1000); // Pause for 2 seconds
-
-  // Clear the buffer
-  display.clearDisplay();
-
-  // Draw a single pixel in white
-
-  // Show the display buffer on the screen. You MUST call display() after\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-
+  delay(1000); 
+  //display.clearDisplay();
   display.setCursor(0, 20);
   display.setTextSize(1);
   display.setTextColor(WHITE);
