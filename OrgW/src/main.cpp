@@ -108,7 +108,7 @@ void dayOfWeek()
   int dow = myRTC.dayofweek;
   if (dow == 1)
   {
-    char dayOfWeekWord = "Monday";
+    //char dayOfWeekWord = "Monday";
     // display.setCursor(37, 15);
     // display.print(dayOfWeekWord);
   }
